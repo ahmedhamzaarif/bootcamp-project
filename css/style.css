@@ -4,11 +4,15 @@ html, body{
     padding: 0;
     background-color: #E5E5E5;
 }
+h1, h2, h3, h4, p{
+    margin: 0;
+}
 header nav{
     height: 50px;
     background-color: #fff;
     display: flex;
     justify-content: flex-end;
+    padding-right: 60px;
 }
 header nav ul{
     margin: 0;
@@ -26,4 +30,51 @@ header nav a{
     line-height: 29px;
     text-align: right;
     color: #000000;
+}
+/* hero section */
+.hero-section{
+    background-color: #fff;
+}
+.hero-section .hero-inner{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 158px 0;
+    display: flex;
+    align-items: center;
+}
+.hero-section .hero-inner .col-left{
+    max-width:497px;
+}
+.hero-section .hero-inner .col-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero-section .hero-inner .col-left h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+.hero-section .hero-inner .col-left p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.hero-section .hero-inner .col-left .btn{
+    margin-top: 38px;
+    background: #FF6464;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: fit-content;
 }
