@@ -78,3 +78,57 @@ header nav a{
     padding: 10px 20px;
     max-width: fit-content;
 }
+.dp{
+    max-width: 243px;
+    height:auto;
+    border-radius: 100%;
+}
+.posts-section{
+    background-color: #EDF7FA;
+    padding: 32px 0px;
+}
+.posts-section-inner{
+    max-width:960px;
+    margin: 0 auto;
+}
+.posts-section-inner .posts-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posts-section-inner .posts-header h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.posts-section-inner .posts-header a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+}
+.posts-section-inner .posts{
+    display: flex;
+    gap:20px;
+}
+.posts .post-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px;
+}
+.posts .post-item header h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.post-item .meta{
+    display:flex;
+    gap:26px;
+}
