@@ -87,7 +87,7 @@ header nav a{
     background-color: #EDF7FA;
     padding: 32px 0px;
 }
-.posts-section-inner{
+.posts-section-inner, .fs-inner{
     max-width:960px;
     margin: 0 auto;
 }
@@ -131,4 +131,83 @@ header nav a{
 .post-item .meta{
     display:flex;
     gap:26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.post-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.featured-section{
+    background-color: white;
+    padding: 32px 0px;
+}
+.fs-header h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 22px;
+}
+.fs-list .fs-item{
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 15px;
+    margin-bottom: 31px;;
+}
+.fs-item h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.fs-item .item-meta{
+    display: flex;
+    gap: 26px;
+}
+.fs-item .item-meta .badge{
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    /* line-height: 60px; */
+    color: #FFFFFF;
+    text-align: center;
+}
+.fs-item .item-meta .category{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.fs-item .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-top: 17px;
+}
+.footer-section{
+    padding: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.footer-section .social-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.footer-section .social-btns img{
+    height: 30px;
 }
