@@ -211,3 +211,58 @@ header nav a{
 .footer-section .social-btns img{
     height: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    header nav{
+        /* display: none; */
+    }
+    .hero-section .hero-inner{
+        flex-direction: column-reverse;
+    }
+    .hero-section .col-right{
+        margin-top:20px;
+        margin-bottom:30px;
+        padding: 10px;
+    }
+    .hero-section .col-left{
+        text-align: center;
+        margin: 0 24px;
+    }
+    .hero-section .btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .posts-section .posts-header h2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .posts-section .posts-header a{
+        display: none;
+    }
+    .posts-section .posts{
+        padding: 10px;
+        display: block;
+    }
+    .posts-section .post-item{
+        margin-bottom: 1rem;
+    }
+    .posts-section .meta{
+        gap: 0;
+        justify-content: space-around;
+    }
+    .featured-section{
+        padding: 10px;
+    }
+    .featured-section .fs-header{
+        text-align: center;
+    }
+    .featured-section .fs-item{
+        display: block;
+        padding: 10px;
+    }
+    .featured-section .fs-item-left img{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+  } 
