@@ -3,6 +3,7 @@ html, body{
     margin: 0;
     padding: 0;
     background-color: #E5E5E5;
+    scroll-behavior: smooth;
 }
 h1, h2, h3, h4, p{
     margin: 0;
@@ -77,6 +78,10 @@ header nav a{
     text-align: center;
     padding: 10px 20px;
     max-width: fit-content;
+}
+.hero-section .hero-inner .col-left .btn a{
+    text-decoration: none;
+    color: #ffffff
 }
 .dp{
     max-width: 243px;
